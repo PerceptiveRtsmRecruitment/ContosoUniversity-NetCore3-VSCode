@@ -33,7 +33,7 @@ npm-debug.log
 .DS_Store
 
 # SQL Lite db files
-.db
+*.db
 
 # VS Code files
 .vscode/*
