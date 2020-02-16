@@ -31,7 +31,7 @@ To run the app after downloading the project:
   dotnet ef database update
   ```
 
-* In your SQLite tool, run the following SQL statement against the database. The database file `CU.db` is in the root of theproject folder:
+* In your SQLite tool, run the following SQL statement against the database. The database file `CU.db` is in the root project folder:
 
   ```SQL
   UPDATE Department SET RowVersion = randomblob(8)
