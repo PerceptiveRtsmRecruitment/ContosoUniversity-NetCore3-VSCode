@@ -36,7 +36,8 @@ To run the app after downloading the project:
   ```SQL
   UPDATE Department SET RowVersion = randomblob(8)
   ```
-
+  Ensure that you disconnect your SQLite tool from the database before moving to the next step.
+  
 * Run the project to seed the database and open the site in your default web browser using the keyboard shortcut `Ctrl+Shift+D`. Alternatively you can use the following command and navigate to the site address returned in the command output.
 
   ```.NET Core CLI
